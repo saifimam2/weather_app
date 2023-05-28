@@ -174,11 +174,23 @@ nav{
     .search button{
       font-size: 12px;
     }
+    .weather-icon{
+      margin-top: 15%;
+    }
+    .temperature{
+      margin-bottom: 15%;
+    }
   }
   @media(max-width:376px){
     .logo{
       margin-right: 25%;
       margin-left: 22%;
+    }
+    .weather-icon{
+      margin-top: 20%;
+    }
+    .temperature{
+      margin-bottom: 15%;
     }
   }
   @media(max-width:320px){
@@ -194,5 +206,11 @@ nav{
     }
     .logo>*{
       font-size: small;
+    }
+    .weather-icon{
+      margin-top: 25%;
+    }
+    .temperature{
+      margin-bottom: 20%;
     }
   }
