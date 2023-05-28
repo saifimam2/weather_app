@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:wght@300&family=Roboto:ital,wght@0,300;1,400&display=swap');
+*{
+    font-family: libre baskerville;
+    font-weight: 500;
+}
+body{
+    background: url(rain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+.content{
+    position: absolute;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    width: 100%;
+}
+nav{
+    display: flex;
+    height: 10vh;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 15%;
+    height: 50%;
+    margin-left: 10px;
+}
+.logo h2{
+    color:  #41dfff ;
+}
+.material-symbols-outlined {
+    color: rgb(255, 255, 255);
+  font-variation-settings:
+  'FILL'  1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+  }
+  .search{
+    display: flex;
+    margin-left: auto;
+    gap: 10px;
+    width: 30%;
+    height: 50%;
+  }
+  .search input{
+    border: none;
+    border-radius: 5px;
+    filter: drop-shadow(1px 1px 6px  #d6dbdf );
+    background-color: #f4f6f7  ;
+    padding: 5px;
+    padding-left: 10px;
+    outline: none;
+    width: 65%;
+    font-family: poppins;
+    font-weight: 100;
+  }
+  .search button{
+    background: transparent;
+    outline: none;
+    border: none;
+    background-color:  #2e86c1 ;
+    filter: drop-shadow(0px 0px 40px rgb(0, 187, 255));
+    border-radius: 5px;
+    color: rgb(248, 252, 249);
+    font-size: 15px;
+    font-family: 'Poppins';
+    width: 25%;
+  }
+  .container {
+    width: 35vw;
+    height: 80vh;
+    margin: auto;
+    background-color: #f4f6f7;
+    color: rgb(56, 56, 56);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  .location{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #city{
+    max-width: 100%;
+    overflow: hidden;
+  }
+  #date{
+    margin-left: auto;
+  }
+  .location>*{ 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+  }
+  .weather-icon {
+    margin-top: 10%;
+    text-align: center;
+  }
+  
+  .temperature {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .details {
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+  }
+  
+  .detail {
+    text-align: center;
+  }
+  
+  h1, h2, h3, p {
+    margin: 0;
+  }
+  
+  img {
+    width: 80px;
+    height: 80px;
+  }
+  .value{
+    display: flex;
+    align-items: center;
+  }
+  .detail span{
+    color: rgb(46, 46, 46);
+  }
+  @media(max-width:1024px){
+    .container{
+      width: 40vw;
+      height: 78vh;
+    }
+  }
+  @media(max-width:768px){
+    body{
+      background-size: 100vw 100vh;
+    }
+    .container{
+      width: 50vw;
+      height: 75vh;
+    }
+    .search{
+      width: 40%;
+    }
+  }
+  @media(max-width:426px){
+    body{
+      background-size: 100vw 100vh;
+    }
+    nav{
+      gap: 20px;
+    }
+    .logo{
+      margin-right: 25%;
+      margin-left: 25%;
+    }
+    .container{
+      width: 95vw;
+      height: 75vh;
+    }
+    .search{
+      margin-left:10px;
+      width: 100%;
+    }
+    .search button{
+      font-size: 12px;
+    }
+  }
+  @media(max-width:376px){
+    .logo{
+      margin-right: 25%;
+      margin-left: 22%;
+    }
+  }
+  @media(max-width:320px){
+    #city{
+      font-size: large;
+    }
+    #date{
+      font-size: large;
+    }
+    .logo{
+      margin-right: 25%;
+      margin-left: 20%;
+    }
+    .logo>*{
+      font-size: small;
+    }
+  }
