@@ -186,10 +186,6 @@ nav{
       margin-right: 25%;
       margin-left: 22%;
     }
-    .container{
-      width: 95vw;
-      height: fit-content;
-    }
     .weather-icon{
       margin-top: 20%;
     }
@@ -210,11 +206,6 @@ nav{
     }
     .logo>*{
       font-size: small;
-    }
-    .container{
-      width: 95vw;
-      height: fit-content;
-      margin-top: 20%;
     }
     .weather-icon{
       margin-top: 25%;
