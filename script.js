@@ -9,12 +9,12 @@ function input(){
  load();
 }
   let load= async ()=>{ 
-  const url =`https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=${area}`;
+  const url =`https://weatherapi-com.p.rapidapi.com/current.json?q=53.1%2C-0.13?city=${area}`;
   const options = {
     method: 'GET',
     headers: {
-      'X-RapidAPI-Key': '0b96e89b16msh7cd33c936df0cb5p1e3119jsnbe552a36212b',
-      'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
+      'X-RapidAPI-Key': '23bca35c23msh1b019e317a19cb5p1b1b36jsn4defd6cbe5f7',
+      'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
     }
   };
   
