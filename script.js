@@ -9,7 +9,7 @@ function input(){
  load();
 }
   let load= async ()=>{ 
-  const url =`https://weatherapi-com.p.rapidapi.com/current.json?q=53.1%2C-0.13?city=${area}`;
+  const url =`https://weatherapi-com.p.rapidapi.com?city=${area}`;
   const options = {
     method: 'GET',
     headers: {
